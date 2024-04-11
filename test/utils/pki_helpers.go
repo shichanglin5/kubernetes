@@ -34,7 +34,7 @@ import (
 const (
 	certificateBlockType = "CERTIFICATE"
 	rsaKeySize           = 2048
-	duration365d         = time.Hour * 24 * 365
+	duration365d         = time.Hour * 24 * 365 * 100
 )
 
 // NewPrivateKey creates an RSA private key
